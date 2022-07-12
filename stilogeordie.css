@@ -1,0 +1,65 @@
+
+
+/*------------------------------------------*/
+@media (min-width: 700px){
+    body{
+        background-image: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+    }
+    .Titulo{
+        font-family: 'Ballet', cursive;
+        color: yellow;
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        padding: 10px;
+        border: solid;
+        -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+    }
+    .contenido{
+        display: flex;
+        justify-content: space-around;
+    }
+    .contenido div{
+        border: solid;
+        padding: 10px;
+    }
+    .whatsap{
+        display: flex;
+        justify-content: center;
+        font-family: 'Ballet', cursive;
+        color: black;
+        font-size: 20px;
+        margin: 0% 10% 5% 10%;
+        background-image: linear-gradient(90deg, #25de00 0%, #b3ff00 100%);
+      
+    }
+    .centro{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 780px){
+    body{
+        background-image: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+    }
+    .Titulo{
+        font-family: 'Ballet', cursive;
+        color: yellow;
+    }
+    .centro{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .maps iframe{
+        width: 99%;
+    }
+
+}
